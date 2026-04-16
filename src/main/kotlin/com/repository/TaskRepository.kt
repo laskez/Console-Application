@@ -72,7 +72,6 @@ class TaskRepository {
         }
     }
 
-    // ИСПРАВЛЕННАЯ ФУНКЦИЯ - принимает List<Int>
     fun markMultipleDone(ids: List<Int>): Int {
         var count = 0
         ids.forEach { id ->
